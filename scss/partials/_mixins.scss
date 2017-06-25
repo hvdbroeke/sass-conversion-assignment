@@ -1,0 +1,10 @@
+@mixin heading-text(){
+    font-family: Impact, sans-serif;
+    vertical-align: middle;
+    font-size: 4rem;
+}
+@mixin break-point {
+    @media all and (min-width: 40rem) {
+        @content; //placeholder for any scss rule that needs adjustment to fit in 
+    }
+}
